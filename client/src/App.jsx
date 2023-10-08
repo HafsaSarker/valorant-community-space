@@ -1,8 +1,7 @@
 import Header from "./components/Header";
 import { useRoutes } from "react-router-dom";
 import Home from "./pages/Home";
-import AllEvents from "./pages/AllEvents";
-import EventDetails from "./pages/EventDetails";
+import Location from "./pages/Location";
 
 function App() {
   let element = useRoutes([
@@ -11,12 +10,8 @@ function App() {
       element: <Home />,
     },
     {
-      path: "/events",
-      element: <AllEvents />,
-    },
-    {
-      path: "/events/:id",
-      element: <EventDetails />,
+      path: "/locations/:location",
+      element: <Location />,
     },
   ]);
   return (
