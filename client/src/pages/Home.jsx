@@ -7,7 +7,7 @@ function Home() {
           <button>
             <Link
               className="flex flex-col items-center"
-              to={`/locations/sidespawn`}
+              to={`/locations/defendersidespawn`}
             >
               <img src="/icon.png" className="w-7" />
               <span className="h-20 pt-7 text-yellow-400 text-md font-semibold -m-8 opacity-0 hover:opacity-100">
@@ -33,7 +33,7 @@ function Home() {
           <button>
             <Link
               className="flex flex-col items-center"
-              to={`/locations/alobby`}
+              to={`/locations/lobbya`}
             >
               <img src="/icon.png" className="w-7" />
               <span className="h-20 pt-7 text-yellow-400 text-md font-semibold -m-8 opacity-0 hover:opacity-100">
