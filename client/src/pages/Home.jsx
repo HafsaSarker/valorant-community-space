@@ -37,7 +37,7 @@ function Home() {
             >
               <img src="/icon.png" className="w-7" />
               <span className="h-20 pt-7 text-yellow-400 text-md font-semibold -m-8 opacity-0 hover:opacity-100">
-                A Lobby
+                Lobby A
               </span>
             </Link>
           </button>

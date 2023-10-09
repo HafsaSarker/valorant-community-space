@@ -1,10 +1,10 @@
 import express from "express";
-import GiftsController from "../controllers/gifts.js";
+import EventsController from "../controllers/events.js";
 
 const router = express.Router();
 
-router.get("/", GiftsController.getGifts);
+router.get("/", EventsController.getEvents);
 
-router.get("/:giftId", GiftsController.getGiftByID);
+router.get("/:loc", EventsController.getEventsByLocation);
 
 export default router;
