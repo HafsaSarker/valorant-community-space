@@ -81,7 +81,7 @@ const eventsData = [
   {
     id: 9,
     name: "Strategic Showdown",
-    location: "B Site",
+    location: "bsite",
     date: "18 December 2024",
     time: "1 PM",
     image:
@@ -91,7 +91,7 @@ const eventsData = [
   {
     id: 10,
     name: "Agents' Clash",
-    location: "B Site",
+    location: "bsite",
     date: "5 January 2025",
     time: "7 PM",
     image:
@@ -111,7 +111,7 @@ const eventsData = [
   {
     id: 12,
     name: "Valorant Finals",
-    location: "B Site",
+    location: "bsite",
     date: "22 March 2025",
     time: "5 PM",
     image:
